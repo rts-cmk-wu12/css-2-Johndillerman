@@ -3,12 +3,37 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-  }
-  
-  #wrapper {
-    width: 1300px;
+}
+
+#wrapper {
+    width: 1456px;
     height: 1985px;
     margin: 0 auto;
-  }
+}
 
-  
+/* Navigation menu*/
+a {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    width: 1456px;
+    height: 77px;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+.navlistItem:last-of-type {
+
+}
