@@ -12,6 +12,12 @@
 }
 
 /* Navigation menu*/
+header{
+    width: 1456px;
+    height: 117px;
+    
+}
+
 a {
     text-decoration: none;
     list-style: none;
@@ -19,13 +25,7 @@ a {
 }
 
 ul {
-    margin: 0;
-    padding: 0;
-}
-
-nav ul {
-    width: 1456px;
-    height: 77px;
+    width: 100%;
 }
 
 header nav ul {
@@ -34,6 +34,19 @@ header nav ul {
     gap: 10px;
 }
 
-.navlistItem:last-of-type {
+nav ul li:last-of-type {
+    margin-left: auto;
+}
 
+nav ul li{
+    margin-top: 50px;
+}
+
+div .links{
+    display: flex;
+    gap: 30px;
+}
+
+div .links span{
+    color: red;
 }
