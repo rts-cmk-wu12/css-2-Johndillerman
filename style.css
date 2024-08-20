@@ -86,3 +86,34 @@ div .links {
     color: rgb(208, 204, 204);
     font-weight: bold;
 }
+
+.dinner_table img {
+    width: 726px;
+    height: 485px;
+}
+
+.first_article{
+    display: grid;
+    gap: 10px;
+    margin-left: 33.5%;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+div .article_picture{
+    width: 726px;
+    height: 485px;
+}
+
+.article_picture img {
+    margin-left: 51%;
+    width: 726px;
+    height: 485px;
+}
+
+div .article_picture p{
+    display: flex;
+    margin-right: 55%;
+    overflow: auto;
+}
+   
