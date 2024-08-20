@@ -101,7 +101,7 @@ div .links {
 }
 
 div .article_picture{
-    width: 726px;
+    width: 726px; 
     height: 485px;
 }
 
@@ -113,7 +113,5 @@ div .article_picture{
 
 div .article_picture p{
     display: flex;
-    margin-right: 55%;
-    overflow: auto;
 }
    
