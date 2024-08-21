@@ -17,13 +17,13 @@
 
 
 /* Navigation menu*/
-header{
+header {
     width: 1456px;
     height: 117px;
     border-bottom: 10%;
 }
 
-main{
+main {
     max-width: 76%;
     margin: 0 auto;
 }
@@ -48,19 +48,20 @@ nav ul li:last-of-type {
     margin-left: auto;
 }
 
-nav ul li{
+nav ul li {
     margin-top: 50px;
 }
 
-div .links{
+div .links {
     display: flex;
     gap: 30px;
 }
 
-div .links span{
+div .links span {
     color: rgb(234, 32, 16);
     font-weight: bold;
 }
+
 div .links {
     margin-top: 25px;
     display: flex;
@@ -71,13 +72,13 @@ div .links {
 
 /*main*/
 
-.annonce img{
+.annonce img {
     margin-top: 25px;
     width: 1097px;
     height: 217px;
 }
 
-.first_article_p{
+.first_article_p {
     color: rgb(234, 32, 16);
     font-weight: bold;
 }
@@ -87,12 +88,7 @@ div .links {
     font-weight: bold;
 }
 
-.dinner_table img {
-    width: 726px;
-    height: 485px;
-}
-
-.first_article{
+.first_article {
     display: grid;
     gap: 10px;
     margin-left: 33.5%;
@@ -100,18 +96,50 @@ div .links {
     margin-bottom: 2%;
 }
 
-div .article_picture{
-    width: 726px; 
-    height: 485px;
-}
-
-.article_picture img {
-    margin-left: 51%;
-    width: 726px;
-    height: 485px;
-}
-
-div .article_picture p{
+div .article_picture {
     display: flex;
 }
-   
+
+/*section second*/
+
+.section_header {
+    color: rgb(234, 32, 16);
+    margin-left: auto;
+    margin-bottom: 15px;
+}
+
+.left_box {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.left_box img {
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.socials {
+    display: flex;
+}
+
+.container h1 {
+    display: grid;
+    justify-content: start;
+}
+
+.container .section_one_comments{
+    display: grid;
+    justify-content: end;
+
+}
+
+.container .dato{
+    display: grid;
+    justify-content: center;
+}
