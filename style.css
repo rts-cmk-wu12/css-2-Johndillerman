@@ -91,21 +91,46 @@ div .links {
 .first_article {
     display: grid;
     gap: 10px;
-    margin-left: 33.5%;
+    margin-left: 23%;
     margin-top: 5%;
     margin-bottom: 2%;
 }
 
-div .article_picture {
+.flex-container-one {
     display: flex;
 }
 
+.flex-container-one > div{
+    margin-left: 23%;
+}
+
+.content img{
+    width: 839px;
+    height: 561px;
+}
 /*section second*/
+
+.Section_one_start{
+    margin-top: 25px;
+}
 
 .section_header {
     color: rgb(234, 32, 16);
-    margin-left: auto;
-    margin-bottom: 15px;
+    font-size: large;
+}
+
+/*ikoner*/
+
+.clock{
+    color: rgb(212, 213, 217);
+}
+
+.comment{
+    color: rgb(204, 204, 204);
+}
+
+.container p{
+    font-weight: bold;
 }
 
 .left_box {
@@ -124,22 +149,22 @@ div .article_picture {
     font-weight: bold;
 }
 
+.container{
+    display: flex;
+    gap: 35%;
+    margin-bottom: 10px;
+}
+
 .socials {
     display: flex;
 }
 
-.container h1 {
-    display: grid;
-    justify-content: start;
+/*article content*/
+
+.flex-container{
+    display: flex;
 }
 
-.container .section_one_comments{
-    display: grid;
-    justify-content: end;
-
-}
-
-.container .dato{
-    display: grid;
-    justify-content: center;
+.flex-container > div{
+    margin-left: 25%;
 }
