@@ -347,3 +347,72 @@ div .articlegallery {
     margin-top: 5px;
 }
 
+/*comments and recommended*/
+
+
+.comments{
+    margin-top: 10px;
+}
+
+.recommendations{
+    color: rgb(234, 32, 16);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.commentsheader{
+    color: rgb(234, 32, 16);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.flex-container-four{
+    display: flex;
+    gap: 13%;
+}
+
+.aside_recommend_article{
+    margin-top: 20px;
+}
+
+.aside_recommend_article p {
+    font-weight: bolder;
+}
+
+.flex-container-five{
+    display: flex;
+}
+
+.comment_one{
+    margin-left: 23.6%;
+    width: 934px;
+    height: 287px;
+}
+
+
+.comment_one img{
+    width: 55px;
+    height: 55px;
+    border-radius: 55px;
+}
+
+.comment_content{
+    width: 630px;
+    height: 91px;
+}
+
+.recommend_comment{
+    color: black;
+    font-weight: bolder;
+}   
+.username{
+    font-weight: bolder;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+.timeofpost{
+    
+}
