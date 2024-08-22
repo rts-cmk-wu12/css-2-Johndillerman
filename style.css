@@ -161,6 +161,24 @@ div .links {
 
 /*article content*/
 
+.peter{
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.mailikon{
+    color: white;
+    margin-left: 2px;
+    margin-top: 2.5px;
+}
+
+.emailpeter{
+    background-color: rgb(165, 156, 153);
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+}
+
 .flex-container{
     display: flex;
 }
@@ -222,4 +240,34 @@ div .links {
 
 .underline span{
     text-decoration: underline;
+}
+
+/*did you read*/
+
+.block{
+    display: none;
+}
+
+.compass{
+    color: rgb(212, 213, 217);
+}
+
+.container_two{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.sectiontwoheader:first-child{
+    color: rgb(234, 32, 16);
+    font-weight: bolder;
+    font-size: 26px;
+}
+
+.gallery_arrows{
+    margin-left: auto;
+    gap: 20px;
+}
+
+.line{
+    border-bottom: black dotted 2px;
 }
