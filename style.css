@@ -427,3 +427,14 @@ div .articlegallery {
     color: black;
     font-weight: bold;
 }
+
+/*footer*/
+
+footer{
+    background-color: rgb(215, 215, 215);
+}
+
+.photo img{
+    width: 202px;
+    height: 281px;
+}
