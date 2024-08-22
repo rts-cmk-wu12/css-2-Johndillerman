@@ -417,3 +417,13 @@ div .articlegallery {
     color: rgb(171, 158, 158);
     font-size: 10px;
 }
+
+.registered{
+    margin-top: 30px;
+    color: rgb(171, 158, 158);
+}
+
+.registered span{
+    color: black;
+    font-weight: bold;
+}
