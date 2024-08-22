@@ -100,17 +100,18 @@ div .links {
     display: flex;
 }
 
-.flex-container-one > div{
+.flex-container-one>div {
     margin-left: 23%;
 }
 
-.content img{
+.content img {
     width: 839px;
     height: 561px;
 }
+
 /*section second*/
 
-.Section_one_start{
+.Section_one_start {
     margin-top: 25px;
 }
 
@@ -121,15 +122,15 @@ div .links {
 
 /*ikoner*/
 
-.clock{
+.clock {
     color: rgb(212, 213, 217);
 }
 
-.comment{
+.comment {
     color: rgb(204, 204, 204);
 }
 
-.container p{
+.container p {
     font-weight: bold;
 }
 
@@ -149,7 +150,7 @@ div .links {
     font-weight: bold;
 }
 
-.container{
+.container {
     display: flex;
     gap: 35%;
     margin-bottom: 10px;
@@ -161,37 +162,37 @@ div .links {
 
 /*article content*/
 
-.peter{
+.peter {
     margin-top: 20px;
     font-weight: bolder;
 }
 
-.mailikon{
+.mailikon {
     color: white;
     margin-left: 2px;
     margin-top: 2.5px;
 }
 
-.emailpeter{
+.emailpeter {
     background-color: rgb(165, 156, 153);
     width: 20px;
     height: 20px;
     border-radius: 20px;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
 }
 
-.flex-container > div{
+.flex-container>div {
     margin-left: 23%;
 }
 
-.fade{
+.fade {
     color: rgb(126, 125, 129);
 }
 
-.fadetwo{
+.fadetwo {
     color: rgb(162, 154, 155);
 }
 
@@ -199,23 +200,24 @@ div .links {
     color: rgb(223, 222, 221);
 }
 
-.fadefour{
+.fadefour {
     color: rgb(243, 244, 246);
 }
 
 /*abonnement*/
 
-.abonnement_sub{
+.abonnement_sub {
     text-align: center;
     font-size: large;
     font-weight: bolder;
 }
-.abonnement_subp{
+
+.abonnement_subp {
     text-align: center;
 }
 
-.border{
-    
+.border {
+
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -234,40 +236,87 @@ div .links {
     transform: scale(1.25);
     box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.3);
 }
+
 .border span {
     color: white;
 }
 
-.underline span{
+.underline span {
     text-decoration: underline;
 }
 
 /*did you read*/
 
-.block{
+.block {
     display: none;
 }
 
-.compass{
+.compass {
     color: rgb(212, 213, 217);
 }
 
-.container_two{
+.container_two {
     display: flex;
     margin-bottom: 10px;
 }
 
-.sectiontwoheader:first-child{
+.sectiontwoheader:first-child {
     color: rgb(234, 32, 16);
     font-weight: bolder;
     font-size: 26px;
 }
 
-.gallery_arrows{
+.gallery_arrows {
     margin-left: auto;
     gap: 20px;
 }
 
-.line{
+.line {
     border-bottom: black dotted 2px;
+}
+
+
+/*other articles*/
+
+div .articlegallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2%;
+    padding: 30px 20px 0 20px;
+}
+
+.other_articles img {
+    width: 220px;
+    height: 125px;
+}
+
+.other_articles h1{
+    width: 220px;
+    height: 125px;
+}
+
+/*latest news*/
+
+.aside_header_one{
+    color: rgb(234, 32, 16);
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.header_two{
+    color: rgb(234, 32, 16);
+    font-weight: bolder;
+    font-size: 20px;
+    margin-left: auto;
+}
+
+.flex-container-three{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+205 392
+
+.time{
+    color: rgb(206, 205, 204);
 }
