@@ -303,6 +303,10 @@ div .articlegallery {
     font-size: 20px;
 }
 
+.latest_news{
+    width: 270px;
+}
+
 .header_two{
     color: rgb(234, 32, 16);
     font-weight: bolder;
@@ -315,8 +319,31 @@ div .articlegallery {
     margin-bottom: 10px;
 }
 
-205 392
-
 .time{
+    margin-top: 10px;
     color: rgb(206, 205, 204);
+    font-size: 10px ;
 }
+
+.latest_news_articles_header{
+    color: black;
+    font-weight: bold;
+}
+
+.aside_line{
+    border-bottom: rgb(244, 244, 244) 1px double;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.aside_line_dotted{
+    border-bottom: black 1px dotted;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.morenews{
+    font-weight: bold;
+    margin-top: 5px;
+}
+
